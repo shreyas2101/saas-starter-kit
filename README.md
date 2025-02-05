@@ -1,29 +1,47 @@
-# Create T3 App
+# SaaS Template
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+This is a SaaS template with the following integrations:
 
-## What's next? How do I make an app with this?
+## Frontend
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- [x] **Framework**: [Next.js](https://nextjs.org/)
+- [x] **UI Library**: [Shadcn](https://ui.shadcn.com/) + [Tailwind CSS](https://tailwindcss.com/)
+- [x] **Animations**: [Auto Animate](https://auto-animate.formkit.com/)
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## State Management
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- [ ] **Library**: [Zustand](https://zustand-demo.pmnd.rs/)
 
-## Learn More
+## Backend
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+- [ ] **Framework**: [Next.js API Routes](https://nextjs.org/docs/api-routes/introduction)
+- [ ] **API Layer**: [tRPC](https://trpc.io/)
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Database
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+- [ ] **Database**: [Neon](https://neon.tech/) or [Supabase](https://supabase.com/)
+- [ ] **ORM**: [Drizzle](https://orm.drizzle.team/)
 
-## How do I deploy this?
+## Storage
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+- [ ] **Storage Solution**: [Supabase Storage](https://supabase.com/storage)
+
+## Authentication
+
+- [x] **Authentication**: [Clerk](https://clerk.dev/)
+
+## Payments
+
+- [ ] **Payment Gateway**: [Razorpay](https://razorpay.com/)
+
+## Analytics
+
+- [ ] **Analytics Tool**: [Posthog](https://posthog.com/)
+
+## Testing
+
+- [ ] **E2E Testing**: [Cypress](https://www.cypress.io/)
+
+## Observability
+
+- [ ] **Observability**: [OpenTelemetry (OTel)](https://opentelemetry.io/)
