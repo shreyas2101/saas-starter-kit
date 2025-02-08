@@ -1,5 +1,10 @@
-import { postRouter } from "@/server/api/routers/post";
-import { createCallerFactory, createTRPCRouter } from "@/server/api/trpc";
+import { postRouter } from "@/server/api/routers/post.routes";
+import {
+  createCallerFactory,
+  createTRPCRouter,
+  publicProcedure,
+} from "@/server/api/trpc";
+import { userRouter } from "./routers/user.routes";
 
 /**
  * This is the primary router for your server.
@@ -7,7 +12,9 @@ import { createCallerFactory, createTRPCRouter } from "@/server/api/trpc";
  * All routers added in /api/routers should be manually added here.
  */
 export const appRouter = createTRPCRouter({
+  healthCheck: publicProcedure.query(() => "ok"),
   post: postRouter,
+  user: userRouter,
 });
 
 // export type definition of API

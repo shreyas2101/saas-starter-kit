@@ -14,13 +14,13 @@ This is a SaaS template with the following integrations:
 
 ## Backend
 
-- [ ] **Framework**: [Next.js API Routes](https://nextjs.org/docs/api-routes/introduction)
-- [ ] **API Layer**: [tRPC](https://trpc.io/)
+- [x] **Framework**: [Next.js API Routes](https://nextjs.org/docs/api-routes/introduction)
+- [x] **API Layer**: [tRPC](https://trpc.io/)
 
 ## Database
 
-- [ ] **Database**: [Neon](https://neon.tech/) or [Supabase](https://supabase.com/)
-- [ ] **ORM**: [Drizzle](https://orm.drizzle.team/)
+- [x] **Database**: [Neon](https://neon.tech/) or [Supabase](https://supabase.com/)
+- [x] **ORM**: [Drizzle](https://orm.drizzle.team/)
 
 ## Storage
 
